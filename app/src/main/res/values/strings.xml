@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, chess!</string>
+    <string name="app_name">Chess Analyzer</string>
+    <string name="aboutSection">Made by Me and Mike</string>
+    <string name="buttonDelete">Delete Piece</string>
+    <string name="buttonSetup">Setup Mode</string>
+    <string name="buttonMore">More</string>
+    <string name="blackdanger">"\n Black Pieces Danger Level: "</string>
+    <string name="whitedanger">"White Pieces Danger Level: "</string>
+</resources>

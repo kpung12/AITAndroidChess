@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:id="@+id/barGraph">
+    <TextView
+        android:id="@+id/bar"
+        android:layout_width="5dp"
+        android:layout_height="25dp"
+        android:background="#FF000000" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="5dp">
+        <TextView
+            android:id="@+id/p1"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="#FF00FFFF" />
+        <TextView
+            android:id="@+id/p2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/p1"
+            android:text="100%" />
+        <TextView
+            android:id="@+id/p3"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFF0000"
+            android:gravity="end"  />
+        <TextView
+            android:id="@+id/p4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/p3"
+            android:text="64%" />
+    </RelativeLayout>
+</LinearLayout>
